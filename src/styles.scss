@@ -1,0 +1,66 @@
+$input-color:#fcf6bd;
+$incomplate-color:#a9def9;
+$complate-color:#d0f4de;
+$button-hover-color:#ff99c8;
+
+
+body {
+  font-family: sans-serif;
+  color: #262626;
+}
+
+.contents-wrapper {
+  width: 400px;
+  margin: 0 auto;
+
+  button {
+    border: none;
+    border-radius: 16px;
+    padding: 4px 16px;
+  
+    &:hover {
+      background-color: $button-hover-color;
+      color: #fff;
+    }
+  }
+
+  .box {
+    padding: 8px;
+    margin:8px;
+  }
+
+  .input-area {
+    background: $input-color;
+    height: 30px;
+
+    input {
+      padding: 6px 16px;
+      border-radius: 8px;
+      border:none;
+      outline: none;
+    }
+  }
+
+    .incomplate-area {
+      background: $incomplate-color;
+      min-height: 200px;
+    }
+
+    .complate-area {
+      background: $complate-color;
+      min-height: 200px;
+  }
+
+  .title {
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .list-row {
+    display: flex;
+    align-items: center;
+  }
+
+}
+
+
